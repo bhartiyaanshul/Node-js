@@ -66,6 +66,20 @@
 //   .then((response) => response.json())
 //   .then((json) => console.log(json));
 
+// DELETE Query
+
 // fetch('https://jsonplaceholder.typicode.com/posts/1',{
 //     method:'DELETE'
 // })
+
+// Filtering the data 
+
+// fetch("https://jsonplaceholder.typicode.com/posts?id=1")
+//     .then((response)=>response.json())
+//     .then((json)=>console.log(json))
+
+// Listing nested data
+
+fetch('https://jsonplaceholder.typicode.com/posts/1/comments')
+    .then((response)=>response.json())
+    .then((json)=>console.log(json))
