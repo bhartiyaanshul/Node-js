@@ -10,6 +10,7 @@ app.post('/',(req,res)=>{
     const content = {
         name: name,
         surename: surename,
+        surename: surename,
         phone: phone,
         address: address
     }
